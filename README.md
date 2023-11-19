@@ -52,7 +52,6 @@
 
 ---
 
-```markdown
 # C++ Programming Guide
 
 ## Part 1: Memory Management
