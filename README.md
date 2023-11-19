@@ -1,4 +1,4 @@
-- [1. Memory Management](#1-memory-management)
+- [1. Memory Management](#part-1-memory-management)
   - [Memory Management Overview](#memory-management-overview)
   - [Dynamic Memory Allocation](#dynamic-memory-allocation)
   - [Memory Allocation for Arrays](#memory-allocation-for-arrays)
@@ -6,7 +6,7 @@
   - [RAII (Resource Acquisition Is Initialization)](#raii-resource-acquisition-is-initialization)
   - [Common Pitfalls in Memory Management](#common-pitfalls-in-memory-management)
   - [Best Practices in Memory Management](#best-practices-in-memory-management)
-- [2. Object-Oriented Programming (OOP)](#2-object-oriented-programming-oop)
+- [2. Object-Oriented Programming (OOP)](#part-2-object-oriented-programming-oop)
   - [Fundamentals of OOP](#fundamentals-of-oop)
   - [Classes and Objects](#classes-and-objects)
   - [Access Specifiers](#access-specifiers)
@@ -19,7 +19,7 @@
   - [Friend Functions and Classes](#friend-functions-and-classes)
   - [Copy Constructor](#copy-constructor)
   - [Rule of Three/Five](#rule-of-threefive)
-- [3. Standard Template Library (STL)](#3-standard-template-library-stl)
+- [3. Standard Template Library (STL)](#part-3-standard-template-library-stl)
   - [Introduction to Templates](#introduction-to-templates)
   - [Overview of STL Components](#overview-of-stl-components)
   - [Commonly Used STL Containers](#commonly-used-stl-containers)
@@ -27,27 +27,27 @@
   - [STL Iterators](#stl-iterators)
   - [Memory Management in STL](#memory-management-in-stl)
   - [Best Practices with STL](#best-practices-with-stl)
-- [4. Concurrency and Multithreading](#4-concurrency-and-multithreading)
+- [4. Concurrency and Multithreading](#part-4-concurrency-and-multithreading)
   - [Processes and Threads](#processes-and-threads)
   - [C++11 Thread Library](#c11-thread-library)
   - [Thread Management](#thread-management)
   - [Synchronization Mechanisms](#synchronization-mechanisms)
   - [Thread-Local Storage](#thread-local-storage)
   - [Best Practices in Multithreading](#best-practices-in-multithreading)
-- [5. Advanced Topics](#5-advanced-topics)
+- [5. Advanced Topics](#part-5-advanced-topics)
   - [Deadlocks](#deadlocks)
   - [RAII in C++](#raii-in-c)
   - [Best Practices with RAII](#best-practices-with-raii)
-- [6. Container Details](#6-container-details)
+- [6. Container Details](#part-6-container-details)
   - [Detailed Overview of STL Containers](#detailed-overview-of-stl-containers)
   - [Key Differences Between Containers](#key-differences-between-containers)
-- [7. Input/Output in C++](#7-inputoutput-in-c)
+- [7. Input/Output in C++](#part-7-inputoutput-in-c)
   - [Basic I/O](#basic-io)
   - [File I/O](#file-io)
   - [Error Handling in File I/O](#error-handling-in-file-io)
   - [Manipulators](#manipulators)
   - [String Streams](#string-streams)
-- [Database Management](#database-management)
+- [8. Database Management](#part-8-database-management)
   - [Example: Using SQLite in C++](#example-using-sqlite-in-c)
 
 ---
@@ -368,7 +368,7 @@ Sure, I will merge the additional text on String Streams and Error Handling in F
 
 ---
 
-### Database Management
+### Part 8: Database Management
 1. **Install and Include Database Library**: Depending on the database (e.g., MySQL, SQLite), install the appropriate library and include it in your C++ project.
 
 2. **Establish Connection**: Create a connection to the database server.
