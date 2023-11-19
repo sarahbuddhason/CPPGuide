@@ -40,7 +40,7 @@
   - [Best Practices with RAII](#best-practices-with-raii)
 - [6. Container Details](#part-6-container-details)
   - [Detailed Overview of STL Containers](#detailed-overview-of-stl-containers)
-  - [Key Differences Between Containers](#key-differences-between-containers)
+  - [Key Differences](#key-differences)
 - [7. Input/Output in C++](#part-7-inputoutput-in-c)
   - [Basic I/O](#basic-io)
   - [File I/O](#file-io)
