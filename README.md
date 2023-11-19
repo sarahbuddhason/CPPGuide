@@ -1,5 +1,3 @@
-# Table of Contents
-
 - [1. Memory Management](#1-memory-management)
   - [Memory Management Overview](#memory-management-overview)
   - [Dynamic Memory Allocation](#dynamic-memory-allocation)
