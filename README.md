@@ -321,44 +321,44 @@ Sure, I will merge the additional text on String Streams and Error Handling in F
 ## Part 6: Container Details
 ### Detailed Overview of STL Containers
 #### 1. Sequence Containers
-- std::vector: Dynamic array that allows random access. Fast insert/remove at the end; slow at the beginning or in the middle.
-- std::list: Doubly linked list. Fast insert/remove from anywhere. No random access.
-- std::deque: Double-ended queue. Fast insert/remove at both beginning and end.
+- `std::vector`: Dynamic array that allows random access. Fast insert/remove at the end; slow at the beginning or in the middle.
+- `std::list`: Doubly linked list. Fast insert/remove from anywhere. No random access.
+- `std::deque`: Double-ended queue. Fast insert/remove at both beginning and end.
 
 #### 2. Associative Containers
-- std::set: Collection of unique elements, sorted by keys. Implemented as a balanced binary tree.
-- std::multiset: Like std::set but allows duplicate elements.
-- std::map: Collection of key-value pairs, sorted by keys, keys are unique. Implemented as a balanced binary tree.
-- std::multimap: Like std::map but allows multiple entries with the same key.
+- `std::set`: Collection of unique elements, sorted by keys. Implemented as a balanced binary tree.
+- `std::multiset`: Like std::set but allows duplicate elements.
+- `std::map`: Collection of key-value pairs, sorted by keys, keys are unique. Implemented as a balanced binary tree.
+- `std::multimap`: Like std::map but allows multiple entries with the same key.
 
 3. Unordered Associative Containers (C++11)
-- std::unordered_set: Collection of unique elements, hashed by keys. Not sorted.
-- std::unordered_multiset: Like unordered_set but allows duplicate elements.
-- std::unordered_map: Collection of key-value pairs, hashed by keys, keys are unique. Not sorted.
-- std::unordered_multimap: Like unordered_map but allows multiple entries with the same key.
+- `std::unordered_set`: Collection of unique elements, hashed by keys. Not sorted.
+- `std::unordered_multiset`: Like unordered_set but allows duplicate elements.
+- `std::unordered_map`: Collection of key-value pairs, hashed by keys, keys are unique. Not sorted.
+- `std::unordered_multimap`: Like unordered_map but allows multiple entries with the same key.
 
 5. Container Adapters
-- std::stack: Adapts a container to provide stack (LIFO) operations. Does not allow iteration.
-- std::queue: Adapts a container to provide queue (FIFO) operations. Does not allow random access.
-- std::priority_queue: Like a queue, but provides removal of the largest element, not the front element.
+- `std::stack`: Adapts a container to provide stack (LIFO) operations. Does not allow iteration.
+- `std::queue`: Adapts a container to provide queue (FIFO) operations. Does not allow random access.
+- `std::priority_queue`: Like a queue, but provides removal of the largest element, not the front element.
 
 ### Key Differences
 #### Ordered vs Unordered:
-- Ordered containers (set, multiset, map, multimap) use a comparison function for sorting and organizing data. They provide ordered iteration.
-- Unordered containers (unordered_set, unordered_multiset, unordered_map, unordered_multimap) use hashing and allow faster access but do not maintain order.
+- Ordered containers (`set`, `multiset`, `map`, `multimap`) use a comparison function for sorting and organizing data. They provide ordered iteration.
+- Unordered containers (`unordered_set`, `unordered_multiset`, `unordered_map`, `unordered_multimap`) use hashing and allow faster access but do not maintain order.
 
 #### Unique vs Multiple Keys:
 - Containers like set and map enforce unique keys.
 - Containers like multiset and multimap allow multiple entries for a key.
 
 #### Direct Access vs Sequential Access:
-- vector, deque, array: Direct access to elements.
-- list, forward_list: Sequential access; you must iterate to access elements.
+- `vector`, `deque`, `array`: Direct access to elements.
+- `list`, `forward_list`: Sequential access; you must iterate to access elements.
 
 #### Performance Characteristics:
-- vector is very efficient for accessing elements and is generally the default choice for a container.
-- list and forward_list are efficient for frequent insertions and deletions throughout the container.
-- map and set are good for maintaining a sorted set of elements. unordered_map and unordered_set are more efficient for lookup, insertion, and deletion.
+- `vector` is very efficient for accessing elements and is generally the default choice for a container.
+- `list` and `forward_list` are efficient for frequent insertions and deletions throughout the container.
+- `map` and `set` are good for maintaining a sorted set of elements. `unordered_map` and `unordered_set` are more efficient for lookup, insertion, and deletion.
 
 #### Stack and Queue Adapters:
 - Do not provide iterators and offer a limited subset of operations (push, pop, top/front).
